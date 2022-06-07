@@ -56,7 +56,7 @@ int	is_sorted(t_p1 *stack)
 
 	i = 0;
 	nb = stack->arry[i];
-	while (i < stack->top)
+	while (i <= stack->top)
 	{
 		if (nb < stack->arry[i])
 			return (0);
